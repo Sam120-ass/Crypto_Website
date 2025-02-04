@@ -1,0 +1,44 @@
+#heading{
+    color: black;
+    height: 100px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#allCryptoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.singularCrypto{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    /* padding: 20px; */
+    /* margin: 10px; */
+    /* gap: 200px; */
+}
+.singularCrypto:hover{
+    background-color: grey;
+}
+
+@keyframes spin{
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% { 
+        transform: rotateZ(180deg);
+    }
+}
+.logoImage{
+    animation: spin 2s infinite ease-in-out alternate;
+    height: 50px;
+    object-fit: contain;
+}
