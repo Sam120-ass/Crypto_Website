@@ -1,0 +1,13 @@
+#detailsHeading{
+    width:60%;
+    margin:0 auto;
+}
+#cryptoDetails{
+    width:60%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 0 10px 10px #dddddd;
+    border-radius: 20px;
+
+}
